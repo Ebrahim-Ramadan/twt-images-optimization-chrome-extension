@@ -1,6 +1,6 @@
 const observer = new MutationObserver(() => {
   const images = document.getElementsByClassName('css-9pa8cd'); 
-  const divs = document.querySelectorAll('div.css-1dbjc4n[data-testid="videoPlayer"]');
+  const divs = document.querySelectorAll('video');
 
   console.log('images', images);
   if (images.length > 0) {
